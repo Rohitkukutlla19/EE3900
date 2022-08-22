@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1660798196 "/home/dell/Desktop/EE3900-1/Assignment1/main.tex" "/home/dell/Desktop/EE3900-1/Assignment1/main.pdf" "main" 1660798196
+["pdflatex"] 1661140555 "/home/dell/Desktop/EE3900-1/Assignment1/main.tex" "/home/dell/Desktop/EE3900-1/Assignment1/main.pdf" "main" 1661140555
   "./figs/ynconv.pdf" 1660148396 14185 f664363c09abd383740081820c791b00 ""
   "/etc/texmf/web2c/texmf.cnf" 1660711372 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/dell/Desktop/EE3900-1/Assignment1/./figs/2_2" 0 -1 0 ""
@@ -10,8 +10,8 @@
   "/home/dell/Desktop/EE3900-1/Assignment1/./figs/5_2" 0 -1 0 ""
   "/home/dell/Desktop/EE3900-1/Assignment1/./figs/5_4" 0 -1 0 ""
   "/home/dell/Desktop/EE3900-1/Assignment1/./figs/6_3" 0 -1 0 ""
-  "/home/dell/Desktop/EE3900-1/Assignment1/main.aux" 1660798196 8 a94a2480d3289e625eea47cd1b285758 ""
-  "/home/dell/Desktop/EE3900-1/Assignment1/main.tex" 1660798195 23921 209fc14b9f0de7b6682e201f59eb3847 ""
+  "/home/dell/Desktop/EE3900-1/Assignment1/main.aux" 1661140555 8 a94a2480d3289e625eea47cd1b285758 ""
+  "/home/dell/Desktop/EE3900-1/Assignment1/main.tex" 1661140548 23921 1e22b201ddfd432990b1a8006aca4050 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1136768653 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -157,12 +157,12 @@
   "figs/ynconv.pdf" 1660148396 14185 f664363c09abd383740081820c791b00 ""
   "main.aux" 0 -1 0 "pdflatex"
   "main.out" 0 -1 0 "pdflatex"
-  "main.tex" 1660798195 23921 209fc14b9f0de7b6682e201f59eb3847 ""
+  "main.tex" 1661140548 23921 1e22b201ddfd432990b1a8006aca4050 ""
   (generated)
-  "main.pdf"
-  "main.out"
-  "main.log"
-  "/home/dell/Desktop/EE3900-1/Assignment1/main.pdf"
   "main.toc"
+  "main.log"
+  "main.pdf"
+  "/home/dell/Desktop/EE3900-1/Assignment1/main.pdf"
   "main.aux"
+  "main.out"
   "/home/dell/Desktop/EE3900-1/Assignment1/main.log"
