@@ -877,6 +877,10 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/rtxptmri.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/rtxi.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/txfonts/txmi.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/rtxmi.tfm
+INPUT /home/dell/Desktop/EE3900-1/Assignment1/./figs/xnyn.pdf
+INPUT /home/dell/Desktop/EE3900-1/Assignment1/./figs/xnyn.pdf
+INPUT /home/dell/Desktop/EE3900-1/Assignment1/./figs/xnyn.pdf
+INPUT /home/dell/Desktop/EE3900-1/Assignment1/./figs/xnyn.pdf
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/txfonts/txmi.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/rtxmi.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/rtxptmri.tfm

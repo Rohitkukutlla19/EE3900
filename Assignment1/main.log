@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2022.8.17)  22 AUG 2022 09:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2022.8.17)  22 AUG 2022 09:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -757,19 +757,11 @@ LaTeX Warning: Reference `fig:xnyn' on page 1 undefined on input line 315.
 
 
 ]
-
-/home/dell/Desktop/EE3900-1/Assignment1/main.tex:321: LaTeX Error: File `./figs/3_2' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.321 ...egraphics[width=\columnwidth]{./figs/3_2}
-                                                  
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+<./figs/xnyn.pdf, id=64, 433.62pt x 289.08pt>
+File: ./figs/xnyn.pdf Graphic file (type pdf)
+<use ./figs/xnyn.pdf>
+Package pdftex.def Info: ./figs/xnyn.pdf  used on input line 321.
+(pdftex.def)             Requested size: 252.0pt x 168.00174pt.
 
 
 LaTeX Warning: Reference `fig:xnyn' on page 2 undefined on input line 328.
@@ -820,7 +812,7 @@ LaTeX Warning: Reference `eq:unit_step' on page 2 undefined on input line 426.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [2]
+ [2 </home/dell/Desktop/EE3900-1/Assignment1/./figs/xnyn.pdf>]
 
 LaTeX Warning: Command \j invalid in math mode on input line 454.
 
@@ -842,6 +834,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 455--462
 Overfull \hbox (3.6447pt too wide) detected at line 470
 []
  []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 
 
 LaTeX Warning: Reference `fig:dtft' on page 3 undefined on input line 471.
@@ -880,22 +876,22 @@ Overfull \hbox (16.3142pt too wide) detected at line 500
 []
  []
 
-
-LaTeX Warning: Reference `eq:freq_resp' on page 3 undefined on input line 510.
-
-
-LaTeX Warning: Reference `eq:iir_filter' on page 3 undefined on input line 519.
-
-
-LaTeX Warning: Reference `eq:freq_resp' on page 3 undefined on input line 521.
-
-
-LaTeX Warning: Reference `eq:anun' on page 3 undefined on input line 527.
-
-
-LaTeX Warning: Reference `eq:z_trans_shift' on page 3 undefined on input line 527.
-
 [3]
+
+LaTeX Warning: Reference `eq:freq_resp' on page 4 undefined on input line 510.
+
+
+LaTeX Warning: Reference `eq:iir_filter' on page 4 undefined on input line 519.
+
+
+LaTeX Warning: Reference `eq:freq_resp' on page 4 undefined on input line 521.
+
+
+LaTeX Warning: Reference `eq:anun' on page 4 undefined on input line 527.
+
+
+LaTeX Warning: Reference `eq:z_trans_shift' on page 4 undefined on input line 527.
+
 
 LaTeX Warning: Reference `fig:hn' on page 4 undefined on input line 540.
 
@@ -948,20 +944,22 @@ LaTeX Warning: Reference `fig:ynconv' on page 4 undefined on input line 613.
 
 LaTeX Warning: Reference `fig:xnyn' on page 4 undefined on input line 615.
 
-<./figs/ynconv.pdf, id=140, 433.62pt x 289.08pt>
+[4]
+<./figs/ynconv.pdf, id=210, 433.62pt x 289.08pt>
 File: ./figs/ynconv.pdf Graphic file (type pdf)
 <use ./figs/ynconv.pdf>
 Package pdftex.def Info: ./figs/ynconv.pdf  used on input line 639.
 (pdftex.def)             Requested size: 252.0pt x 168.00174pt.
 
-LaTeX Warning: Reference `eq:convolution' on page 4 undefined on input line 648.
+
+LaTeX Warning: Reference `eq:convolution' on page 5 undefined on input line 648.
+
+
+LaTeX Warning: Command \j invalid in math mode on input line 661.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [4]
-
-LaTeX Warning: Command \j invalid in math mode on input line 661.
 
 
 LaTeX Warning: Command \j invalid in math mode on input line 670.
@@ -992,7 +990,9 @@ LaTeX Warning: Reference `prob:output' on page 5 undefined on input line 692.
 
 LaTeX Warning: Reference `prob:output' on page 5 undefined on input line 699.
 
-[5 </home/dell/Desktop/EE3900-1/Assignment1/./figs/ynconv.pdf>] (/home/dell/Desktop/EE3900-1/Assignment1/main.aux)
+[5 </home/dell/Desktop/EE3900-1/Assignment1/./figs/ynconv.pdf>] [6
+
+] (/home/dell/Desktop/EE3900-1/Assignment1/main.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -1009,18 +1009,18 @@ Package rerunfilecheck Info: Checksums for `main.out':
 (rerunfilecheck)             After:  2154E13812F1013637C6C87519C101FD;346.
  ) 
 Here is how much of TeX's memory you used:
- 13159 strings out of 479304
- 199337 string characters out of 5869779
+ 13152 strings out of 479304
+ 199279 string characters out of 5869779
  858537 words of memory out of 5000000
- 29933 multiletter control sequences out of 15000+600000
+ 29925 multiletter control sequences out of 15000+600000
  466159 words of font info for 151 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  71i,16n,74p,277b,1669s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtcxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxsc.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsya.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on /home/dell/Desktop/EE3900-1/Assignment1/main.pdf (5 pages, 105231 bytes).
+Output written on /home/dell/Desktop/EE3900-1/Assignment1/main.pdf (6 pages, 116354 bytes).
 PDF statistics:
- 318 PDF objects out of 1000 (max. 8388607)
- 266 compressed objects within 3 object streams
- 168 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 364 PDF objects out of 1000 (max. 8388607)
+ 279 compressed objects within 3 object streams
+ 169 named destinations out of 1000 (max. 500000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
