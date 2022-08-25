@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2022.8.17)  25 AUG 2022 10:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2022.8.17)  25 AUG 2022 10:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -939,7 +939,7 @@ LaTeX Warning: Reference `fig:ynconv' on page 4 undefined on input line 613.
 LaTeX Warning: Reference `fig:xnyn' on page 4 undefined on input line 615.
 
 [4]
-<./figs/ynconv.pdf, id=252, 433.62pt x 289.08pt>
+<./figs/ynconv.pdf, id=213, 433.62pt x 289.08pt>
 File: ./figs/ynconv.pdf Graphic file (type pdf)
 <use ./figs/ynconv.pdf>
 Package pdftex.def Info: ./figs/ynconv.pdf  used on input line 639.
@@ -1003,18 +1003,18 @@ Package rerunfilecheck Info: Checksums for `main.out':
 (rerunfilecheck)             After:  2154E13812F1013637C6C87519C101FD;346.
  ) 
 Here is how much of TeX's memory you used:
- 13143 strings out of 479304
- 199125 string characters out of 5869779
+ 13144 strings out of 479304
+ 199137 string characters out of 5869779
  858537 words of memory out of 5000000
- 29916 multiletter control sequences out of 15000+600000
+ 29917 multiletter control sequences out of 15000+600000
  466159 words of font info for 151 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  71i,16n,74p,277b,1669s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtcxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxsc.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsya.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on /home/dell/Desktop/EE3900-1/Assignment1/main.pdf (6 pages, 126082 bytes).
+Output written on /home/dell/Desktop/EE3900-1/Assignment1/main.pdf (6 pages, 116771 bytes).
 PDF statistics:
- 406 PDF objects out of 1000 (max. 8388607)
- 289 compressed objects within 3 object streams
+ 367 PDF objects out of 1000 (max. 8388607)
+ 281 compressed objects within 3 object streams
  169 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
