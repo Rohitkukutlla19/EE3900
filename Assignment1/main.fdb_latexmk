@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1661404880 "/home/dell/Desktop/EE3900-1/Assignment1/main.tex" "/home/dell/Desktop/EE3900-1/Assignment1/main.pdf" "main" 1661404880
+["pdflatex"] 1661405065 "/home/dell/Desktop/EE3900-1/Assignment1/main.tex" "/home/dell/Desktop/EE3900-1/Assignment1/main.pdf" "main" 1661405065
   "./figs/xnyn.pdf" 1661403582 14721 65db0365e4131b88f48fd1923dd61068 ""
   "./figs/xnyn_1.pdf" 1661404690 1249 cc3ad9f4f81167431e329290e1bc3452 ""
   "./figs/ynconv.pdf" 1660148396 14185 f664363c09abd383740081820c791b00 ""
@@ -10,8 +10,8 @@
   "/home/dell/Desktop/EE3900-1/Assignment1/./figs/5_2" 0 -1 0 ""
   "/home/dell/Desktop/EE3900-1/Assignment1/./figs/5_4" 0 -1 0 ""
   "/home/dell/Desktop/EE3900-1/Assignment1/./figs/6_3" 0 -1 0 ""
-  "/home/dell/Desktop/EE3900-1/Assignment1/main.aux" 1661404880 8 a94a2480d3289e625eea47cd1b285758 ""
-  "/home/dell/Desktop/EE3900-1/Assignment1/main.tex" 1661404879 23927 dd588a1386fa6613f92ae97fa53f5346 ""
+  "/home/dell/Desktop/EE3900-1/Assignment1/main.aux" 1661405065 8 a94a2480d3289e625eea47cd1b285758 ""
+  "/home/dell/Desktop/EE3900-1/Assignment1/main.tex" 1661405064 23928 40f3a4bf2dbf256c57882cb325c4a802 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1136768653 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -157,12 +157,12 @@
   "figs/ynconv.pdf" 1660148396 14185 f664363c09abd383740081820c791b00 ""
   "main.aux" 0 -1 0 "pdflatex"
   "main.out" 0 -1 0 "pdflatex"
-  "main.tex" 1661404879 23927 dd588a1386fa6613f92ae97fa53f5346 ""
+  "main.tex" 1661405064 23928 40f3a4bf2dbf256c57882cb325c4a802 ""
   (generated)
-  "main.aux"
   "/home/dell/Desktop/EE3900-1/Assignment1/main.log"
-  "main.log"
   "main.toc"
   "/home/dell/Desktop/EE3900-1/Assignment1/main.pdf"
+  "main.aux"
   "main.out"
   "main.pdf"
+  "main.log"
