@@ -136,7 +136,7 @@ columns=fullflexible
 \vspace{3cm}
 \title{ 
 %\logo{
-Digital Signal Processing 
+Digital Signal Processing
 %}
 %	\logo{Octave for Math Computing }
 }
@@ -156,11 +156,11 @@ Digital Signal Processing
 % a separate \thanks must be used for each paragraph as LaTeX2e's \thanks
 % was not built to handle multiple paragraphs
 %
-\author{ Rohith \\BM20BTECH11006 %<-this  stops a space
-%\thanks{*The author is with the Department
-%of Electrical Engineering, Indian Institute of Technology, Hyderabad
-%502285 India e-mail:  gadepall@iith.ac.in.  All content in the manuscript is 
-%released under GNU GPL.  Free to use for anything. }% <-this % stops a space
+\author{ G V V Sharma$^{*}$ %<-this  stops a space
+\thanks{*The author is with the Department
+of Electrical Engineering, Indian Institute of Technology, Hyderabad
+502285 India e-mail:  gadepall@iith.ac.in.  All content in the manuscript is 
+released under GNU GPL.  Free to use for anything. }% <-this % stops a space
 %\thanks{J. Doe and J. Doe are with Anonymous University.}% <-this % stops a space
 %\thanks{Manuscript received April 19, 2005; revised January 11, 2007.}}
 }
@@ -223,7 +223,8 @@ sudo pip install cffi pysoundfile
 \label{prob:input}
 Download the sound file from  
 \begin{lstlisting}
-wget https://github.com/Rohitkukutlla19/EE3900/blob/main/Assignment1/codes/Sound_Noise.wav
+wget https://raw.githubusercontent.com/gadepall/ 
+EE1310/master/filter/codes/Sound_Noise.wav
 \end{lstlisting}
 %\href{http://tlc.iith.ac.in/img/sound/Sound_Noise.wav}{\url{http://tlc.iith.ac.in/img/sound/Sound_Noise.wav}}  
 %in the link given below.
@@ -242,41 +243,13 @@ Upload the sound file that you downloaded in Problem \ref{prob:input} in the spe
 %
 \solution There are a lot of yellow lines between 440 Hz to 5.1 KHz.  These represent the synthesizer key tones. Also, the key strokes
 are audible along with background noise.
-\begin{figure}[!ht]
-	\begin{center}
-	\includegraphics[width=\columnwidth]{./figs/2_2}
-	\end{center}
-	\captionof{figure}{}
-	\label{fig:xnyn}	
-	\end{figure}
 % By observing spectrogram, it clearly shows that tonal frequency is under 4kHz. And above 4kHz only noise is present.
 \item
 \label{prob:output}
 Write the python code for removal of out of band noise and execute the code.
 \\
 \solution
-\begin{lstlisting}
-import soundfile as sf
-from scipy import signal
-#read .wav file
-input_signal,fs = sf.read('Sound_Noise.wav')
-#sampling frequency of Input signal
-sampl_freq=fs
-#order of the filter
-order=4
-#cutoff frquency 4kHz
-cutoff_freq=4000.0
-#digital frequency
-Wn=2*cutoff_freq/sampl_freq
-# b and a are numerator and denominator polynomials respectively
-b, a = signal.butter(order,Wn, 'low')
-#filter the input signal with butterworth filter
-output_signal = signal.filtfilt(b, a,input_signal)
-#output signal = signal.lfilter(b, a,input signal)
-#write the output signal into .wav file
-sf.write('Sound With ReducedNoise.wav',output_signal, fs)
-\end{lstlisting}
-%\lstinputlisting{./codes/Cancel_noise.py}
+\lstinputlisting{./codes/2q_cancel_noise.py}
 %\begin{figure}[h]
 %\centering
 %\includegraphics[width=\columnwidth]{enc_block_diag.png}
@@ -288,17 +261,11 @@ sf.write('Sound With ReducedNoise.wav',output_signal, fs)
 The output of the python script in Problem \ref{prob:output} is the audio file Sound\_With\_ReducedNoise.wav. Play the file in the spectrogram in Problem \ref{prob:spectrogram}. What do you observe?
 \\
 \solution The key strokes as well as background noise is subdued in the audio.  Also,  the signal is blank for frequencies above 5.1 kHz.
-\begin{figure}[!ht]
-	\begin{center}
-	\includegraphics[width=\columnwidth]{./figs/2_4}
-	\end{center}
-	\captionof{figure}{}
-	\label{fig:xnyn}	
-	\end{figure}
 \end{enumerate}
 \section{Difference Equation}
 \begin{enumerate}[label=\thesection.\arabic*,ref=\thesection.\theenumi]
 \item Let
+	\label{def:xn}
 \begin{equation}
 x(n) = \cbrak{\underset{\uparrow}{1},2,3,4,2,1}
 \end{equation}
@@ -314,7 +281,7 @@ Sketch $y(n)$.
 \\
 \solution The following code yields Fig. \ref{fig:xnyn}.
 \begin{lstlisting}
-wget https://github.com/Rohitkukutlla19/EE3900/blob/main/Assignment1/codes/3.2_xnyn.ipynb
+wget https://github.com/gadepall/EE1310/raw/master/filter/codes/xnyn.py
 \end{lstlisting}
 \begin{figure}[!ht]
 \begin{center}
@@ -324,21 +291,6 @@ wget https://github.com/Rohitkukutlla19/EE3900/blob/main/Assignment1/codes/3.2_x
 \label{fig:xnyn}	
 \end{figure}
 \item Repeat the above exercise using a C code.
-\\
-\solution The following code yields Fig. \ref{fig:xnyn}.
-\begin{lstlisting}
-wget https://github.com/Rohitkukutlla19/EE3900/blob/main/Assignment1/codes/3.3_xnyn.c
-\end{lstlisting}
-\begin{lstlisting}
-#wget https://github.com/Rohitkukutlla19/EE3900/blob/main/Assignment1/codes/3.3_xnyn_1.ipynb
-\end{lstlisting}
-\begin{figure}[!ht]
-\begin{center}
-\includegraphics[width=\columnwidth]{./figs/xnyn_1}
-\end{center}
-\captionof{figure}{}
-\label{fig:xnyn}	
-\end{figure}
 \end{enumerate}
 \section{$Z$-transform}
 \begin{enumerate}[label=\thesection.\arabic*]
@@ -370,14 +322,13 @@ resulting in \eqref{eq:shift1}. Similarly, it can be shown that
 \label{eq:z_trans_shift}
 	{\mathcal {Z}}\{x(n-k)\} = z^{-k}X(z)
 \end{equation}
-\item Obtain $X(z)$ for $x(n)$ defined in problem  $\eqref{X(n)}$.
-\solution
-\begin{align}
-Z(x(n))&=\sum_{n=-\infty}^{\infty}x(n)z^{-n}\\
-&=x(0)z^{0}+x(1)z^{-1}+x(2)z^{-2}+x(3)z^{-3}+\\
-&\nonumber x(4)z^{-4}+x(5)z^{-5}\\
-&=1+2z^{-1}+3z^{-2}+4z^{-3}+2z^{-4}+z^{-5}
-\end{align}
+\item Obtain $X(z)$ for $x(n)$ defined in problem 
+	\ref{def:xn}.
+\solution 
+\begin{equation}
+	X(z)=\sum _{n=-\infty }^{\infty }x(n)z^{-n}
+	= 1 + \frac{2}{z} +\frac{3}{z^2} + \frac{4}{z^3} + \frac{2}{z^4} + \frac{1}{z^5}
+\end{equation}
 \item Find
 %
 \begin{equation}
@@ -436,69 +387,77 @@ using the fomula for the sum of an infinite geometric progression.
 \label{eq:anun}
 a^nu(n) \ztrans \frac{1}{1-az^{-1}} \quad \abs{z} > \abs{a}
 \end{equation}
-\solution
+\solution On applying Z-transform:
 \begin{align}
-{\mathcal {Z}}\{a^nu(n)\} &=\sum _{n=-\infty }^{\infty }a^nu(n)z^{-n}
-\\
-&=\sum _{n=-\infty }^{\infty }u(n) (az^{-1})^{n}
-\\
-&=\sum _{n=-\infty }^{\infty }(az^{-1})^{n} , \quad \abs{az^{-1}} < 1\\
-\\
-&= \frac{1}{1-az^{-1}} , \quad \abs{a} < \abs{z}
+	A(z) &= \sum _{n= -{\infty}}^{\infty}a^nu(n)z^{-n}
+	\\
+	&=\sum _{n= 0}^{\infty}\frac{a^n}{z^{n}}, \quad \abs{z} > \abs{a}
+	\\
+	&= \frac{1}{1-\frac{a}{z}}
 \end{align}
-using the fomula for the sum of an infinite geometric progression.
-%
+Using the formula for infinite geometric progression with $r = \frac{a}{z}$
 \item 
 Let
 \begin{equation}
 H\brak{e^{\j \omega}} = H\brak{z = e^{\j \omega}}.
 \end{equation}
-Plot $\abs{H\brak{e^{\j \omega}}}$.  Comment.  $H(e^{\j \omega})$ is
-known as the {\em Discret Time Fourier Transform} (DTFT) of $x(n)$.
+Plot $\abs{H\brak{e^{\j \omega}}}$.  Is it periodic? If so, find the period. $H(e^{\j \omega})$ is
+known as the {\em Discrete Time Fourier Transform} (DTFT) of $h(n)$.
 \\
-\solution  The graph is symmetric and periodic it is attending high of value 4 and minimum between (0 - 0.5). 
-It is bounded between (0, 4) and periodic with period $(2\pi)$
-\\
-\begin{align}
-	H\brak{e^{j \omega}} &= \frac{1+e^{-2j\omega}}{1 + \frac{e^{-j\omega}}{2}}\\
-	  \implies \abs{H\brak{e^{j \omega}}} &= \frac{\abs{1+e^{-2j\omega}}}{\abs{1 + \frac{e^{-j\omega}}{2}}}\\
-						  &= \frac{\abs{1+e^{2j\omega}}}{\abs{e^{2j\omega} + \frac{e^{j\omega}}{2}}}\\
-						  &= \frac{\abs{1+\cos2\omega + j\sin2\omega}}{\abs{e^{j\omega}+ \frac{1}{2}}}\\
-						  &= \frac{\abs{4\cos^2\brak{\omega} + 4j\sin\brak{\omega}\cos\brak{\omega}}}{\abs{2e^{j\omega} + 1}}\\
-						  &= \frac{\abs{4\cos\brak{\omega}}\abs{\cos\brak{\omega} + j\sin\brak{\omega}}}{\abs{2\cos\brak{\omega} + 1 + 2j\sin\brak{\omega}}}\\
-	  \therefore \abs{H\brak{e^{j \omega}}} &= \frac{\abs{4\cos\brak{\omega}}}{\sqrt{5 +4\cos\brak{\omega}}}
-  \end{align}
-The following code plots Fig. \ref{fig:dtft}.
+\solution The following code plots Fig. \ref{fig:dtft}.
 \begin{lstlisting}
-wget https://github.com/yashrajput22/EE3900-22/blob/master/codes/Section-4/4_5.py
+wget https://raw.githubusercontent.com/gadepall/EE1310/master/filter/codes/dtft.ipynb
 \end{lstlisting}
+\begin{align}
+	H\brak{z} = \frac{1+{z^2}}{{z^2}+{\frac{z}{2}}}
+	\\
+	H(e^{\j\omega}) = \frac{1+{e^{2\j\omega}}}{{e^{2\j\omega}}+\frac{e^{\j\omega}}{2}}
+	\\
+	H(e^{\j\omega}) = \frac{2{e^{\j\omega}}\brak{e^{\j\omega}+e^{-{\j\omega}}}}{2e^{2\j\omega}+{e^{\j\omega}}}
+	\\
+	H(e^{\j\omega}) = \frac{4cos(w)}{1+{2{e^{\j\omega}}}}
+	\\
+	H\brak{e^{\j \omega}} = \frac{cos(w)}{1+{2cos(w)}+{2jsin(w)}}
+	\\
+	\abs{H\brak{e^{\j \omega}}} = \frac{\abs{cos(w)}}{\sqrt{5+4cos(w)}}
+\end{align}
+Therefore, the period is $2{\pi}$
 \begin{figure}[!ht]
 \centering
-\includegraphics[width=\columnwidth]{./figs/4_5}
+\includegraphics[width=\columnwidth]{./figs/dtft}
 \caption{$\abs{H\brak{e^{\j\omega}}}$}
 \label{fig:dtft}
 \end{figure}
-\item Express $x(n)$ in terms of $H\brak{e^{\j \omega}}$.\\
-\solution 
-\begin{align}
-	\int_{-\pi}^{\pi}e^{\j\omega(n - k)}d\omega =
-	\begin{cases}
-		2\pi & n = k \\
-		0 & \textrm{otherwise}
-	\end{cases}
-\end{align}
-\begin{align}
-	H\brak{e^{j\omega}} &= \sum_{n=-\infty}^{\infty} h\brak{n} e^{-j\omega n}
-	\\
-	\int_{-\pi}^{\pi}H\brak{e^{j\omega}}e^{j\omega k}d\omega &= \sum_{n=-\infty}^{\infty} h\brak{n} \int_{-\pi}^{\pi} e^{-j\omega n}e^{j\omega k}d\omega
-    \\
-	\int_{-\pi}^{\pi}H\brak{e^{j\omega}}e^{j\omega k}d\omega &= \sum_{n=-\infty}^{\infty} h\brak{n} 2\pi
-    \\
-    \int_{-\pi}^{\pi}H\brak{e^{j\omega}}e^{j\omega k}d\omega &= 2\pi h\brak{n} 
-	\\
-	\frac{1}{2\pi} \int_{-\pi}^{\pi}H\brak{e^{j\omega}}e^{j\omega k}d\omega &= h\brak{n} 
-\end{align} 
+\item Express $h(n)$ in terms of $H\brak{e^{\j \omega}}$.
 \end{enumerate}
+We know that,
+\begin{align}
+	H(z) = \sum_{n= -{\infty}}^{\infty}h(n)e^{-\j nz}
+\end{align}
+Now,
+\begin{align}
+	\int_{-{\pi}}^{\pi} H(z)e^{\j kz}\, dz\
+	\\
+	=\int_{-{\pi}}^{\pi} {\sum_{n= -{\infty}}^{\infty}h(n)e^{-\j nz}}e^{\j kz}\, dz\
+\end{align}
+If n = k, the above integral evaluates to:
+\begin{align}
+2{\pi}h(k) = 2{\pi}h(n)
+\end{align} 
+If n ${\neq}$ k, the above integral evaluates to:
+\begin{align}
+	\sum_{n= -{\infty}}^{\infty}\int_{-{\pi}}^{\pi}h(n)e^{{\j z}(k-n)}\,dz\
+	\\
+	= \sum_{n= -{\infty}}^{\infty}h(n)\int_{-{\pi}}^{\pi}e^{{\j z}(k-n)}\,dz\
+	\\
+	= \sum_{n= -{\infty}}^{\infty}h(n)\int_{-{\pi}}^{\pi}cos(z(k-n))+{\j}sin(z(k-n))\,dz\
+\end{align}
+Taking z(k-n) = t,
+\begin{align}
+	\sum_{n= -{\infty}}^{\infty}h(n)\int_{-{\pi}(k-n)}^{\pi(k-n)}cos(t)+{\j}sin(t)\,dt\
+	\\
+	&= 0
+\end{align}
 \section{Impulse Response}
 \begin{enumerate}[label=\thesection.\arabic*]
 	\item Using long division, 
@@ -508,6 +467,37 @@ find
 		\end{align}
 		for H(z) in 
 		\eqref{eq:freq_resp}.
+\\
+\solution
+\begin{align}
+	H(z) = \frac{1+z^{-2}}{1+\frac{z^{-1}}{2}}
+\end{align}
+Let
+\begin{align}
+	z^{-1} = t
+\end{align}
+Hence,
+\begin{align}
+	1+t^{2} = (2t-4)(1+\frac{t}{2})+5
+	\\
+	H(z) = (2z^{-1}-4) + \frac{5}{1+\frac{1}{2z}}
+	\\
+	= \frac{2}{z} - 4 + 5 - \frac{5}{2z} + \frac{5}{4z^{2}}+...
+	\\
+	= 1 - \frac{1}{2z} + \frac{5}{4z^{2}} - \frac{5}{8z^{3}} + \frac{5}{16z^{4}}
+\end{align}
+Hence, by comparing with the coefficients with the definition of z-transform
+\begin{align}
+	h(0) = 1
+	\\
+	h(1) = -\frac{1}{2}
+	\\
+	h(2) = \frac{5}{4}
+	\\
+	h(3) = -\frac{5}{8}
+	\\
+	h(4) = \frac{5}{16}
+\end{align}
 \item \label{prob:impulse_resp}
 Find an expression for $h(n)$ using $H(z)$, given that 
 %in Problem \ref{eq:ztransab} and \eqref{eq:anun}, given that
@@ -525,49 +515,39 @@ H(z) &= \frac{1}{1 + \frac{1}{2}z^{-1}} + \frac{ z^{-2}}{1 + \frac{1}{2}z^{-1}}
 \implies h(n) &= \brak{-\frac{1}{2}}^{n}u(n) + \brak{-\frac{1}{2}}^{n-2}u(n-2)
 \end{align}
 using \eqref{eq:anun} and \eqref{eq:z_trans_shift}.
-\item Sketch $h(n)$. Is it bounded? Convergent? 
+\item Sketch $h(n)$. Is it bounded? Justify theoretically.
 \\
-\solution Yes, it is bounded between and convergent. We can clearly see in the plot it is not tending to infinite and remain finite.
-\\
-We see that $h(n)$ is bounded. For large $n$, we see that 
-\begin{align}
-	h(n) &= \brak{-\frac{1}{2}}^n + \brak{-\frac{1}{2}}^{n - 2} \\
-		 &= \brak{-\frac{1}{2}}^{n}\brak{4 + 1} = 5\brak{-\frac{1}{2}}^n \\
-		 &\implies \left|\frac{h(n + 1)}{h(n)}\right| = \frac{1}{2}
-\end{align}
-and therefore, $\lim_{n \to \infty}\left|\frac{h(n + 1)}{h(n)}\right| = \frac{1}{2} < 1$. Hence, we see that $h(n)$ converges.
-\\
-The following code plots Fig. \ref{fig:hn}.
+\solution The following code plots Fig. \ref{fig:hn}.
 \begin{lstlisting}
-wget https://github.com/yashrajput22/EE3900-22/blob/master/codes/Section-5/5_2.py
+wget https://raw.githubusercontent.com/gadepall/EE1310/master/filter/codes/hn.py
 \end{lstlisting}
 \begin{figure}[!ht]
 \centering
-\includegraphics[width=\columnwidth]{./figs/5_2}
+\includegraphics[width=\columnwidth]{./figs/hn}
 \caption{$h(n)$ as the inverse of $H(z)$}
 \label{fig:hn}
 \end{figure}
+h(n) is bounded as it converges to 0
 %
+\item Convergent? Justify using the ratio test.
+\\
+\solution
+\begin{align}
+	h(n) = (\frac{-1}{2})^{n}u(n) + (\frac{-1}{2})^{n-2}u(n-2)
+\end{align}
+As n $\to$ $\infty$,
+\begin{align}
+	h(n)/h(n-1) = \frac{(\frac{-1}{2})^{n} + (\frac{-1}{2})^{n-2}}{(\frac{-1}{2})^{n-1} + (\frac{-1}{2})^{n-3}}
+	= -\frac{1}{2}
+\end{align}
+As $\abs{\frac{h(n)}{h(n-1)}}$$<$1, the series is convergent due to which it is bounded.
 \item The system with $h(n)$ is defined to be stable if
 \begin{equation}
 \sum_{n=-\infty}^{\infty}h(n) < \infty
 \end{equation}
 Is the system defined by \eqref{eq:iir_filter} stable for the impulse response in \eqref{eq:impulse_resp}?
-\\
-\solution By using h(n) from 5.3
-\begin{align}
-h(n) &= \brak{-\frac{1}{2}}^{n}u(n) + \brak{-\frac{1}{2}}^{n-2}u(n-2)
-\\
-&= \sum_{n=-\infty}^{\infty} \brak{-\frac{1}{2}}^{n}u(n) + \brak{-\frac{1}{2}}^{n-2}u(n-2)
-\\
-&= \sum_{n=-\infty}^{\infty} \brak{-\frac{1}{2}}^{n}u(n) + \sum_{n=-\infty}^{\infty}  \brak{-\frac{1}{2}}^{n-2}u(n-2) 
-\\
-&= \sum_{n=-\infty}^{\infty} \brak{-\frac{1}{2}}^{n} + \sum_{n=-\infty}^{\infty}  \brak{-\frac{1}{2}}^{n-2}
-\\
-\\
-&= \frac{2}{3} + \frac{2}{3} < \infty 
-\end{align}
 %
+\item Verify the above result using a python code.
 \item 
 Compute and sketch $h(n)$ using 
 \begin{equation}
@@ -579,22 +559,13 @@ This is the definition of $h(n)$.
 \\
 \solution The following code plots Fig. \ref{fig:hndef}. Note that this is the same as Fig. 
 \ref{fig:hn}. 
-\begin{align}
-&= h(n) + \frac{1}{2}h(n-1) = \delta(n) + \delta(n-2)
-\\
-&= H(z) + \frac{1}{2}z^{-1}H(z) = 1+z^{-2}
-\\
-H(z) &= \frac{1}{1 + \frac{1}{2}z^{-1}} + \frac{ z^{-2}}{1 + \frac{1}{2}z^{-1}}
-\\
-h(n) &= \brak{-\frac{1}{2}}^{n}u(n) + \brak{-\frac{1}{2}}^{n-2}u(n-2)
-\end{align}
 %
 \begin{lstlisting}
-wget https://github.com/yashrajput22/EE3900-22/blob/master/codes/Section-5/5_4.py
+wget https://raw.githubusercontent.com/gadepall/EE1310/master/filter/codes/hndef.ipynb
 \end{lstlisting}
 \begin{figure}[!ht]
 \centering
-\includegraphics[width=\columnwidth]{./figs/5_4}
+\includegraphics[width=\columnwidth]{./figs/hndef}
 \caption{$h(n)$ from the definition}
 \label{fig:hndef}
 \end{figure}
@@ -615,42 +586,19 @@ $y(n)$ in  Fig.
 \ref{fig:xnyn}. 
 %
 \begin{lstlisting}
-wget https://github.com/yashrajput22/EE3900-22/blob/master/codes/Section-5/5_5.py
+wget https://raw.githubusercontent.com/gadepall/EE1310/master/filter/codes/ynconv.ipynb
 \end{lstlisting}
-We use Toeplitz matrices for convolution
-\begin{align}
-	\mtx{y} &= \mtx{x} \circledast \mtx{h}\\
-	\mtx{y} &= 
-	\begin{pmatrix}
-		h_1 & 0 & . & . & . & 0 \\
-		h_2 & h_1 & . & . & . & 0 \\
-		h_3 & h_2 & h_1 & . & . & 0 \\
-		. & . & . & . & . & . \\
-		0 & . & . & h_3 & h_2 & h_1 \\
-		0 & . & . & . & h_2 & h_1 \\
-		0 & . & . & . & 0 & h_1
-	\end{pmatrix}
-	\begin{pmatrix}
-		x_1 \\ x_2 \\ \vdots \\ x_n
-	\end{pmatrix}
-\end{align}
 \begin{figure}[!ht]
 \centering
 \includegraphics[width=\columnwidth]{./figs/ynconv}
 \caption{$y(n)$ from the definition of convolution}
 \label{fig:ynconv}
 \end{figure}
+\item Express the above convolution using a Teoplitz matrix.
 \item Show that
 \begin{equation}
 y(n) =  \sum_{n=-\infty}^{\infty}x(n-k)h(k)
 \end{equation}
-\solution
-From \eqref{eq:convolution}, we substitute $k := n - k$ to get
-\begin{align}
-y\brak{n} &= \sum_{k=-\infty}^{\infty}x\brak{k}h\brak{n - k} \\
-		  &= \sum_{n - k=-\infty}^{\infty}x\brak{n - k}h\brak{k} \\
-		  &= \sum_{k=-\infty}^{\infty}x\brak{n - k}h\brak{k}
-\end{align}
 \end{enumerate}
 %
 \section{DFT and FFT}
@@ -675,17 +623,18 @@ $y(n)$ in  Fig.
 \ref{fig:xnyn}. 
 %
 \begin{lstlisting}
-wget https://raw.githubusercontent.com/gadepall/EE1310/master/filter/codes/yndft.py
+wget https://raw.githubusercontent.com/gadepall/EE1310/master/filter/codes/yndft.ipynb
 \end{lstlisting}
 \begin{figure}[!ht]
 \centering
-\includegraphics[width=\columnwidth]{./figs/6_3}
+\includegraphics[width=\columnwidth]{./figs/yndft}
 \caption{$y(n)$ from the DFT}
 \label{fig:yndft}
 \end{figure}
 \item Repeat the previous exercise by computing $X(k), H(k)$ and $y(n)$ through FFT and 
 IFFT.
 \item Wherever possible, express all the above equations as matrix equations.
+\item Verify the above equations by generating the DFT matrix in python.
 \end{enumerate}
 %
 \section{Exercises}
@@ -721,4 +670,3 @@ Modifying the code with different input parameters and to get the best possible 
 %
 \end{enumerate}
 \end{document}
-Footer
