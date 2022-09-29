@@ -1,4 +1,4 @@
-pip install soundfile
+#pip install soundfile
 import soundfile as sf
 from scipy import signal
 #read .wav file
