@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2022.8.17)  30 SEP 2022 02:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2022.8.17)  30 SEP 2022 02:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1016,10 +1016,10 @@ File: ./figs/yndft.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./figs/yndft.pdf  used on input line 667.
 (pdftex.def)             Requested size: 252.0pt x 168.00174pt.
 [5 </home/dell/Desktop/EE3900-1/Assignment1/./figs/hndef.pdf> </home/dell/Desktop/EE3900-1/Assignment1/./figs/ynconv.pdf>]
-/home/dell/Desktop/EE3900-1/Assignment1/main.tex:698: Undefined control sequence.
+/home/dell/Desktop/EE3900-1/Assignment1/main.tex:695: Undefined control sequence.
 <argument>  \vec {I}_4 = \myvec 
                                 {\vec {e}_4^{1} &\vec {e}_4^{2} &\vec {e}_4^...
-l.698 	\end{align}
+l.695 	\end{align}
                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1027,28 +1027,28 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/home/dell/Desktop/EE3900-1/Assignment1/main.tex:698: Missing } inserted.
+/home/dell/Desktop/EE3900-1/Assignment1/main.tex:695: Missing } inserted.
 <inserted text> 
                 }
-l.698 	\end{align}
+l.695 	\end{align}
                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
 Try to go on, since this might almost work.
 
-/home/dell/Desktop/EE3900-1/Assignment1/main.tex:698: Missing { inserted.
+/home/dell/Desktop/EE3900-1/Assignment1/main.tex:695: Missing { inserted.
 <inserted text> 
                 {
-l.698 	\end{align}
+l.695 	\end{align}
                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
 Try to go on, since this might almost work.
 
-/home/dell/Desktop/EE3900-1/Assignment1/main.tex:698: Undefined control sequence.
+/home/dell/Desktop/EE3900-1/Assignment1/main.tex:695: Undefined control sequence.
 <argument>  \vec {I}_4 = \myvec 
                                 {\vec {e}_4^{1} &\vec {e}_4^{2} &\vec {e}_4^...
-l.698 	\end{align}
+l.695 	\end{align}
                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1056,19 +1056,19 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/home/dell/Desktop/EE3900-1/Assignment1/main.tex:698: Missing } inserted.
+/home/dell/Desktop/EE3900-1/Assignment1/main.tex:695: Missing } inserted.
 <inserted text> 
                 }
-l.698 	\end{align}
+l.695 	\end{align}
                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
 Try to go on, since this might almost work.
 
-/home/dell/Desktop/EE3900-1/Assignment1/main.tex:698: Missing \endgroup inserted.
+/home/dell/Desktop/EE3900-1/Assignment1/main.tex:695: Missing \endgroup inserted.
 <inserted text> 
                 \endgroup 
-l.698 	\end{align}
+l.695 	\end{align}
                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1076,27 +1076,27 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-/home/dell/Desktop/EE3900-1/Assignment1/main.tex:698: Misplaced \omit.
+/home/dell/Desktop/EE3900-1/Assignment1/main.tex:695: Misplaced \omit.
 \math@cr@@@ ...@ \@ne \add@amps \maxfields@ \omit 
                                                   \kern -\alignsep@ \iftag@ ...
-l.698 	\end{align}
+l.695 	\end{align}
                   
 I expect to see \omit only after tab marks or the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
-/home/dell/Desktop/EE3900-1/Assignment1/main.tex:698: Missing { inserted.
+/home/dell/Desktop/EE3900-1/Assignment1/main.tex:695: Missing { inserted.
 <inserted text> 
                 {
-l.698 	\end{align}
+l.695 	\end{align}
                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
 Try to go on, since this might almost work.
 
-/home/dell/Desktop/EE3900-1/Assignment1/main.tex:702: Undefined control sequence.
+/home/dell/Desktop/EE3900-1/Assignment1/main.tex:699: Undefined control sequence.
 <argument>  \vec {P}_4 = \myvec 
                                 {\vec {e}_4^{1} &\vec {e}_4^{3} &\vec {e}_4^...
-l.702 	\end{align}
+l.699 	\end{align}
                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1104,28 +1104,28 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/home/dell/Desktop/EE3900-1/Assignment1/main.tex:702: Missing } inserted.
+/home/dell/Desktop/EE3900-1/Assignment1/main.tex:699: Missing } inserted.
 <inserted text> 
                 }
-l.702 	\end{align}
+l.699 	\end{align}
                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
 Try to go on, since this might almost work.
 
-/home/dell/Desktop/EE3900-1/Assignment1/main.tex:702: Missing { inserted.
+/home/dell/Desktop/EE3900-1/Assignment1/main.tex:699: Missing { inserted.
 <inserted text> 
                 {
-l.702 	\end{align}
+l.699 	\end{align}
                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
 Try to go on, since this might almost work.
 
-/home/dell/Desktop/EE3900-1/Assignment1/main.tex:702: Undefined control sequence.
+/home/dell/Desktop/EE3900-1/Assignment1/main.tex:699: Undefined control sequence.
 <argument>  \vec {P}_4 = \myvec 
                                 {\vec {e}_4^{1} &\vec {e}_4^{3} &\vec {e}_4^...
-l.702 	\end{align}
+l.699 	\end{align}
                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1133,19 +1133,19 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/home/dell/Desktop/EE3900-1/Assignment1/main.tex:702: Missing } inserted.
+/home/dell/Desktop/EE3900-1/Assignment1/main.tex:699: Missing } inserted.
 <inserted text> 
                 }
-l.702 	\end{align}
+l.699 	\end{align}
                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
 Try to go on, since this might almost work.
 
-/home/dell/Desktop/EE3900-1/Assignment1/main.tex:702: Missing \endgroup inserted.
+/home/dell/Desktop/EE3900-1/Assignment1/main.tex:699: Missing \endgroup inserted.
 <inserted text> 
                 \endgroup 
-l.702 	\end{align}
+l.699 	\end{align}
                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1153,27 +1153,27 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-/home/dell/Desktop/EE3900-1/Assignment1/main.tex:702: Misplaced \omit.
+/home/dell/Desktop/EE3900-1/Assignment1/main.tex:699: Misplaced \omit.
 \math@cr@@@ ...@ \@ne \add@amps \maxfields@ \omit 
                                                   \kern -\alignsep@ \iftag@ ...
-l.702 	\end{align}
+l.699 	\end{align}
                   
 I expect to see \omit only after tab marks or the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
-/home/dell/Desktop/EE3900-1/Assignment1/main.tex:702: Missing { inserted.
+/home/dell/Desktop/EE3900-1/Assignment1/main.tex:699: Missing { inserted.
 <inserted text> 
                 {
-l.702 	\end{align}
+l.699 	\end{align}
                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
 Try to go on, since this might almost work.
 
-/home/dell/Desktop/EE3900-1/Assignment1/main.tex:706: Undefined control sequence.
+/home/dell/Desktop/EE3900-1/Assignment1/main.tex:703: Undefined control sequence.
 <argument>  \vec {D}_4 = diag\myvec 
                                     {W_{8}^{0} & W_{8}^{1} & W_{8}^{2} & W_{...
-l.706 	\end{align}
+l.703 	\end{align}
                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1181,28 +1181,28 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/home/dell/Desktop/EE3900-1/Assignment1/main.tex:706: Missing } inserted.
+/home/dell/Desktop/EE3900-1/Assignment1/main.tex:703: Missing } inserted.
 <inserted text> 
                 }
-l.706 	\end{align}
+l.703 	\end{align}
                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
 Try to go on, since this might almost work.
 
-/home/dell/Desktop/EE3900-1/Assignment1/main.tex:706: Missing { inserted.
+/home/dell/Desktop/EE3900-1/Assignment1/main.tex:703: Missing { inserted.
 <inserted text> 
                 {
-l.706 	\end{align}
+l.703 	\end{align}
                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
 Try to go on, since this might almost work.
 
-/home/dell/Desktop/EE3900-1/Assignment1/main.tex:706: Undefined control sequence.
+/home/dell/Desktop/EE3900-1/Assignment1/main.tex:703: Undefined control sequence.
 <argument>  \vec {D}_4 = diag\myvec 
                                     {W_{8}^{0} & W_{8}^{1} & W_{8}^{2} & W_{...
-l.706 	\end{align}
+l.703 	\end{align}
                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1210,19 +1210,19 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/home/dell/Desktop/EE3900-1/Assignment1/main.tex:706: Missing } inserted.
+/home/dell/Desktop/EE3900-1/Assignment1/main.tex:703: Missing } inserted.
 <inserted text> 
                 }
-l.706 	\end{align}
+l.703 	\end{align}
                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
 Try to go on, since this might almost work.
 
-/home/dell/Desktop/EE3900-1/Assignment1/main.tex:706: Missing \endgroup inserted.
+/home/dell/Desktop/EE3900-1/Assignment1/main.tex:703: Missing \endgroup inserted.
 <inserted text> 
                 \endgroup 
-l.706 	\end{align}
+l.703 	\end{align}
                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1230,18 +1230,18 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-/home/dell/Desktop/EE3900-1/Assignment1/main.tex:706: Misplaced \omit.
+/home/dell/Desktop/EE3900-1/Assignment1/main.tex:703: Misplaced \omit.
 \math@cr@@@ ...@ \@ne \add@amps \maxfields@ \omit 
                                                   \kern -\alignsep@ \iftag@ ...
-l.706 	\end{align}
+l.703 	\end{align}
                   
 I expect to see \omit only after tab marks or the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
-/home/dell/Desktop/EE3900-1/Assignment1/main.tex:706: Missing { inserted.
+/home/dell/Desktop/EE3900-1/Assignment1/main.tex:703: Missing { inserted.
 <inserted text> 
                 {
-l.706 	\end{align}
+l.703 	\end{align}
                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -1254,12 +1254,12 @@ Underfull \vbox (badness 5105) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [6 </home/dell/Desktop/EE3900-1/Assignment1/./figs/yndft.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 835--840
+Underfull \hbox (badness 10000) in paragraph at lines 832--837
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 882--885
+Underfull \hbox (badness 10000) in paragraph at lines 879--882
 
  []
 
@@ -1270,12 +1270,12 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [7]
-Overfull \hbox (76.04637pt too wide) detected at line 1181
+Overfull \hbox (76.04637pt too wide) detected at line 1178
 [][][]  [] \OML/txmi/m/it/12 x\OT1/txr/m/n/12 (\OML/txmi/m/it/12 n\OT1/txr/m/n/12 )\OML/txmi/m/it/12 e[][]  \OT1/txr/m/n/12 = [] \OML/txmi/m/it/12 x\OT1/txr/m/n/12 (2\OML/txmi/m/it/12 n\OT1/txr/m/n/12 )\OML/txmi/m/it/12 e[] \OT1/txr/m/n/12 + [] \OML/txmi/m/it/12 x\OT1/txr/m/n/12 (2\OML/txmi/m/it/12 n \OT1/txr/m/n/12 + 1)\OML/txmi/m/it/12 e[]
  []
 
 
-Overfull \hbox (23.11845pt too wide) detected at line 1186
+Overfull \hbox (23.11845pt too wide) detected at line 1183
 [][][]  \OT1/txr/m/n/12 = [] \OML/txmi/m/it/12 x\OT1/txr/m/n/12 (2\OML/txmi/m/it/12 n\OT1/txr/m/n/12 )\OML/txmi/m/it/12 e[] \OT1/txr/m/n/12 + \OML/txmi/m/it/12 e[]\OT1/txr/m/n/12 ([] \OML/txmi/m/it/12 x\OT1/txr/m/n/12 (2\OML/txmi/m/it/12 n \OT1/txr/m/n/12 + 1)\OML/txmi/m/it/12 e[]\OT1/txr/m/n/12 )
  []
 
@@ -1283,10 +1283,10 @@ Overfull \hbox (23.11845pt too wide) detected at line 1186
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-/home/dell/Desktop/EE3900-1/Assignment1/main.tex:1337: Undefined control sequence.
+/home/dell/Desktop/EE3900-1/Assignment1/main.tex:1334: Undefined control sequence.
 <argument>  \vec {x} = \myvec 
                               {1\\2\\3\\4\\2\\1} \label {eq:equation1} 
-l.1337     \end{align}
+l.1334     \end{align}
                       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1294,28 +1294,28 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/home/dell/Desktop/EE3900-1/Assignment1/main.tex:1337: Missing } inserted.
+/home/dell/Desktop/EE3900-1/Assignment1/main.tex:1334: Missing } inserted.
 <inserted text> 
                 }
-l.1337     \end{align}
+l.1334     \end{align}
                       
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
 Try to go on, since this might almost work.
 
-/home/dell/Desktop/EE3900-1/Assignment1/main.tex:1337: Missing { inserted.
+/home/dell/Desktop/EE3900-1/Assignment1/main.tex:1334: Missing { inserted.
 <inserted text> 
                 {
-l.1337     \end{align}
+l.1334     \end{align}
                       
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
 Try to go on, since this might almost work.
 
-/home/dell/Desktop/EE3900-1/Assignment1/main.tex:1337: Undefined control sequence.
+/home/dell/Desktop/EE3900-1/Assignment1/main.tex:1334: Undefined control sequence.
 <argument>  \vec {x} = \myvec 
                               {1\\2\\3\\4\\2\\1} \label {eq:equation1} 
-l.1337     \end{align}
+l.1334     \end{align}
                       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1323,19 +1323,19 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/home/dell/Desktop/EE3900-1/Assignment1/main.tex:1337: Missing } inserted.
+/home/dell/Desktop/EE3900-1/Assignment1/main.tex:1334: Missing } inserted.
 <inserted text> 
                 }
-l.1337     \end{align}
+l.1334     \end{align}
                       
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
 Try to go on, since this might almost work.
 
-/home/dell/Desktop/EE3900-1/Assignment1/main.tex:1337: Missing \endgroup inserted.
+/home/dell/Desktop/EE3900-1/Assignment1/main.tex:1334: Missing \endgroup inserted.
 <inserted text> 
                 \endgroup 
-l.1337     \end{align}
+l.1334     \end{align}
                       
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1343,25 +1343,25 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-/home/dell/Desktop/EE3900-1/Assignment1/main.tex:1337: Misplaced \omit.
+/home/dell/Desktop/EE3900-1/Assignment1/main.tex:1334: Misplaced \omit.
 \math@cr@@@ ...@ \@ne \add@amps \maxfields@ \omit 
                                                   \kern -\alignsep@ \iftag@ ...
-l.1337     \end{align}
+l.1334     \end{align}
                       
 I expect to see \omit only after tab marks or the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
-/home/dell/Desktop/EE3900-1/Assignment1/main.tex:1337: Missing { inserted.
+/home/dell/Desktop/EE3900-1/Assignment1/main.tex:1334: Missing { inserted.
 <inserted text> 
                 {
-l.1337     \end{align}
+l.1334     \end{align}
                       
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
 Try to go on, since this might almost work.
 
 
-LaTeX Warning: Reference `eq:dft-mat-def' on page 8 undefined on input line 1340.
+LaTeX Warning: Reference `eq:dft-mat-def' on page 8 undefined on input line 1337.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1372,7 +1372,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 <./figs//dft_fft_times.png, id=522, 433.62pt x 289.08pt>
 File: ./figs//dft_fft_times.png Graphic file (type png)
 <use ./figs//dft_fft_times.png>
-Package pdftex.def Info: ./figs//dft_fft_times.png  used on input line 1469.
+Package pdftex.def Info: ./figs//dft_fft_times.png  used on input line 1466.
 (pdftex.def)             Requested size: 216.80946pt x 144.53964pt.
  (/home/dell/Desktop/EE3900-1/Assignment1/./codes/fft.c
 LaTeX Font Info:    Trying to load font information for OML+txr on input line 1.
@@ -1395,36 +1395,2994 @@ LaTeX Font Info:    Font shape `OML/txr/m/n' in size <12> not available
 (Font)              Font shape `OML/txmi/m/it' tried instead on input line 15.
 )
 
-LaTeX Warning: Reference `prob:output' on page 10 undefined on input line 1476.
+LaTeX Warning: Reference `prob:output' on page 10 undefined on input line 1473.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-LaTeX Warning: Reference `prob:output' on page 10 undefined on input line 1485.
+LaTeX Warning: Reference `prob:output' on page 10 undefined on input line 1482.
 
 
-! Package Listings Error: File `codes/8_1_(.ipynb)' not found.
+Underfull \hbox (badness 10000) in paragraph at lines 1486--1491
 
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: ipynb)
+ []
 
-Enter file name: 
-/home/dell/Desktop/EE3900-1/Assignment1/main.tex:1494: Emergency stop.
-<read *> 
-         
-l.1494 	 \lstinputlisting{codes/8_1_.ipynb}
-                                           ^^M
-*** (cannot \read from terminal in nonstop modes)
+(/home/dell/Desktop/EE3900-1/Assignment1/codes/8.1_.ipynb [10]
+Overfull \hbox (2033.22783pt too wide) in paragraph at lines 30--31
+[][] 
+ []
 
- 
-Here is how much of TeX's memory you used:
- 13265 strings out of 479304
- 201077 string characters out of 5869779
- 956537 words of memory out of 5000000
- 29939 multiletter control sequences out of 15000+600000
- 478386 words of font info for 187 fonts, out of 8000000 for 9000
- 1144 hyphenation exceptions out of 8191
- 71i,18n,74p,277b,1983s stack positions out of 5000i,500n,10000p,200000b,80000s
-/home/dell/Desktop/EE3900-1/Assignment1/main.tex:1494:  ==> Fatal error occurred, no output PDF file produced!
+
+Overfull \hbox (101.89978pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (225.6438pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (133.27979pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (477.00777pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (21.05579pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (366.36778pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (72.27177pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (34.12376pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (136.38779pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (2.38379pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (89.99576pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (525.88382pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (111.0438pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (0.75177pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (39.71579pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (25.23178pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (4.3758pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (38.3718pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (212.01178pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (137.45576pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (121.67581pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (41.71979pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (148.62779pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (98.27577pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (50.40778pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (992.87576pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (989.07175pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (112.38779pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (168.37979pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (323.3958pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (73.65178pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (253.37578pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (515.8878pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (264.24779pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (319.63983pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (75.05579pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (455.28778pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (500.21574pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (140.0718pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (5.43178pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (80.86378pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (88.39978pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (145.2078pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (16.07579pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (69.0438pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (47.04779pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (65.58778pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (607.8798pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (28.07579pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (222.78778pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (305.02376pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (496.25581pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (100.7118pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (178.20778pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (16.63979pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (82.27979pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (201.90778pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (161.63576pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (254.0718pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (22.55579pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (355.96378pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (303.69179pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (187.71179pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (28.56778pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (26.7198pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (237.0438pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (47.92377pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (3.05579pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (105.72778pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (393.1518pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (19.06378pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (608.14381pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (103.00375pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (144.90776pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (89.53978pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (243.3918pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (39.05579pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (50.49179pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (6.37979pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (131.10779pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (47.07178pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (178.74779pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (55.0398pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (19.73578pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (299.0958pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (134.38379pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (90.83577pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (234.37979pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (224.49174pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (492.69177pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (1.73578pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (7.24376pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (5.80377pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (0.59581pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (593.86375pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (58.24379pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (37.06378pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (289.53181pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (42.0678pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (174.37979pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (3.73978pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (81.09175pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (265.43578pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (26.93578pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (683.31177pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (99.0318pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (128.75578pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (198.5358pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (10.21979pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (71.97179pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (107.73178pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (298.69981pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (547.78378pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (298.93976pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (59.81578pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (121.60378pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (426.1398pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (160.69977pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (233.2038pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (476.74379pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (246.22375pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (14.31178pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (48.24779pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (509.6358pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (85.07578pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (825.55978pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (70.63979pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (529.79578pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (139.05179pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (436.2678pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (29.13177pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (30.73979pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (5.64778pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (105.15178pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (68.61179pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (166.4718pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (115.65178pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (38.0718pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (37.75977pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (22.60379pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (60.9198pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (375.23576pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Overfull \hbox (34.57977pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [11]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [12]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [13]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [14]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [15]
+Overfull \hbox (178.8559pt too wide) in paragraph at lines 125--126
+[][] 
+ []
+
+)
+Overfull \hbox (19.96732pt too wide) detected at line 1516
+[]
+ []
+
+
+LaTeX Warning: Reference `eq:iir_filter_gen' on page 16 undefined on input line 1517.
+
+
+LaTeX Warning: Reference `eq:trans-func' on page 16 undefined on input line 1526.
+
+
+LaTeX Warning: Reference `eq:anun' on page 16 undefined on input line 1526.
+
+
+LaTeX Warning: Command \j invalid in math mode on input line 1541.
+
+
+LaTeX Warning: Command \j invalid in math mode on input line 1541.
+
+
+LaTeX Warning: Command \j invalid in math mode on input line 1541.
+
+
+LaTeX Warning: Command \j invalid in math mode on input line 1541.
+
+
+LaTeX Warning: Command \j invalid in math mode on input line 1541.
+
+
+LaTeX Warning: Command \j invalid in math mode on input line 1541.
+
+
+LaTeX Warning: Command \j invalid in math mode on input line 1541.
+
+
+LaTeX Warning: Command \j invalid in math mode on input line 1541.
+
+
+LaTeX Warning: Command \j invalid in math mode on input line 1541.
+
+
+LaTeX Warning: Command \j invalid in math mode on input line 1541.
+
+
+LaTeX Warning: Command \j invalid in math mode on input line 1541.
+
+
+LaTeX Warning: Command \j invalid in math mode on input line 1541.
+
+
+LaTeX Warning: Command \j invalid in math mode on input line 1541.
+
+
+LaTeX Warning: Command \j invalid in math mode on input line 1541.
+
+
+LaTeX Warning: Command \j invalid in math mode on input line 1541.
+
+
+LaTeX Warning: Command \j invalid in math mode on input line 1541.
+
+
+LaTeX Warning: Command \j invalid in math mode on input line 1541.
+
+
+LaTeX Warning: Command \j invalid in math mode on input line 1541.
+
+
+LaTeX Warning: Command \j invalid in math mode on input line 1541.
+
+
+LaTeX Warning: Command \j invalid in math mode on input line 1541.
+
+
+LaTeX Warning: Command \j invalid in math mode on input line 1541.
+
+
+LaTeX Warning: Command \j invalid in math mode on input line 1541.
+
+
+LaTeX Warning: Command \j invalid in math mode on input line 1541.
+
+
+LaTeX Warning: Command \j invalid in math mode on input line 1541.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ (/home/dell/Desktop/EE3900-1/Assignment1/codes/8.2_1.ipynb
+Underfull \vbox (badness 6001) has occurred while \output is active []
+
+ [16]
+Overfull \hbox (1231.9158pt too wide) in paragraph at lines 41--42
+[][] 
+ []
+
+
+Overfull \hbox (812.13179pt too wide) in paragraph at lines 41--42
+[][] 
+ []
+
+
+Overfull \hbox (83.09576pt too wide) in paragraph at lines 41--42
+[][] 
+ []
+
+
+Overfull \hbox (20.38379pt too wide) in paragraph at lines 41--42
+[][] 
+ []
+
+
+Overfull \hbox (254.87578pt too wide) in paragraph at lines 41--42
+[][] 
+ []
+
+
+Overfull \hbox (341.47978pt too wide) in paragraph at lines 41--42
+[][] 
+ []
+
+
+Overfull \hbox (265.15979pt too wide) in paragraph at lines 41--42
+[][] 
+ []
+
+
+Overfull \hbox (203.38379pt too wide) in paragraph at lines 41--42
+[][] 
+ []
+
+
+Overfull \hbox (168.31978pt too wide) in paragraph at lines 41--42
+[][] 
+ []
+
+
+Overfull \hbox (396.1638pt too wide) in paragraph at lines 41--42
+[][] 
+ []
+
+
+Overfull \hbox (63.95578pt too wide) in paragraph at lines 41--42
+[][] 
+ []
+
+
+Overfull \hbox (823.7958pt too wide) in paragraph at lines 41--42
+[][] 
+ []
+
+
+Overfull \hbox (1102.24376pt too wide) in paragraph at lines 41--42
+[][] 
+ []
+
+
+Overfull \hbox (1107.59573pt too wide) in paragraph at lines 41--42
+[][] 
+ []
+
+
+Overfull \hbox (376.2318pt too wide) in paragraph at lines 41--42
+[][] 
+ []
+
+
+Overfull \hbox (129.22375pt too wide) in paragraph at lines 41--42
+[][] 
+ []
+
+
+Overfull \hbox (27.7038pt too wide) in paragraph at lines 41--42
+[][] 
+ []
+
+
+Overfull \hbox (34.66377pt too wide) in paragraph at lines 41--42
+[][] 
+ []
+
+
+Overfull \hbox (130.5918pt too wide) in paragraph at lines 41--42
+[][] 
+ []
+
+
+Overfull \hbox (233.15578pt too wide) in paragraph at lines 41--42
+[][] 
+ []
+
+
+Overfull \hbox (241.53178pt too wide) in paragraph at lines 41--42
+[][] 
+ []
+
+
+Overfull \hbox (41.17978pt too wide) in paragraph at lines 41--42
+[][] 
+ []
+
+
+Overfull \hbox (40.38779pt too wide) in paragraph at lines 41--42
+[][] 
+ []
+
+
+Overfull \hbox (89.11978pt too wide) in paragraph at lines 41--42
+[][] 
+ []
+
+
+Overfull \hbox (231.0198pt too wide) in paragraph at lines 41--42
+[][] 
+ []
+
+
+Overfull \hbox (215.61177pt too wide) in paragraph at lines 41--42
+[][] 
+ []
+
+
+Overfull \hbox (1357.85571pt too wide) in paragraph at lines 41--42
+[][] 
+ []
+
+
+Overfull \hbox (1012.4118pt too wide) in paragraph at lines 41--42
+[][] 
+ []
+
+
+Overfull \hbox (160.09978pt too wide) in paragraph at lines 41--42
+[][] 
+ []
+
+
+Overfull \hbox (144.60779pt too wide) in paragraph at lines 41--42
+[][] 
+ []
+
+
+Overfull \hbox (135.60777pt too wide) in paragraph at lines 41--42
+[][] 
+ []
+
+
+Overfull \hbox (369.1998pt too wide) in paragraph at lines 41--42
+[][] 
+ []
+
+
+Overfull \hbox (39.90778pt too wide) in paragraph at lines 41--42
+[][] 
+ []
+
+
+Overfull \hbox (167.71979pt too wide) in paragraph at lines 41--42
+[][] 
+ []
+
+
+Overfull \hbox (1368.85974pt too wide) in paragraph at lines 41--42
+[][] 
+ []
+
+
+Overfull \hbox (153.7038pt too wide) in paragraph at lines 41--42
+[][] 
+ []
+
+
+Overfull \hbox (27.72778pt too wide) in paragraph at lines 41--42
+[][] 
+ []
+
+
+Overfull \hbox (308.33577pt too wide) in paragraph at lines 41--42
+[][] 
+ []
+
+
+Overfull \hbox (150.43979pt too wide) in paragraph at lines 41--42
+[][] 
+ []
+
+
+Overfull \hbox (81.71579pt too wide) in paragraph at lines 41--42
+[][] 
+ []
+
+
+Overfull \hbox (1.72379pt too wide) in paragraph at lines 41--42
+[][] 
+ []
+
+
+Overfull \hbox (71.2518pt too wide) in paragraph at lines 41--42
+[][] 
+ []
+
+
+Overfull \hbox (9.0318pt too wide) in paragraph at lines 41--42
+[][] 
+ []
+
+
+Overfull \hbox (180.58379pt too wide) in paragraph at lines 41--42
+[][] 
+ []
+
+
+Overfull \hbox (43.72379pt too wide) in paragraph at lines 41--42
+[][] 
+ []
+
+
+Overfull \hbox (93.77577pt too wide) in paragraph at lines 41--42
+[][] 
+ []
+
+
+Overfull \hbox (308.14377pt too wide) in paragraph at lines 41--42
+[][] 
+ []
+
+
+Overfull \hbox (304.6158pt too wide) in paragraph at lines 41--42
+[][] 
+ []
+
+
+Overfull \hbox (11.76778pt too wide) in paragraph at lines 41--42
+[][] 
+ []
+
+
+Overfull \hbox (672.83575pt too wide) in paragraph at lines 41--42
+[][] 
+ []
+
+
+Overfull \hbox (56.3718pt too wide) in paragraph at lines 41--42
+[][] 
+ []
+
+
+Overfull \hbox (302.70778pt too wide) in paragraph at lines 41--42
+[][] 
+ []
+
+
+Overfull \hbox (392.38377pt too wide) in paragraph at lines 41--42
+[][] 
+ []
+
+
+Overfull \hbox (244.48378pt too wide) in paragraph at lines 41--42
+[][] 
+ []
+
+
+Overfull \hbox (24.60779pt too wide) in paragraph at lines 41--42
+[][] 
+ []
+
+
+Overfull \hbox (13.66379pt too wide) in paragraph at lines 41--42
+[][] 
+ []
+
+
+Overfull \hbox (949.74779pt too wide) in paragraph at lines 41--42
+[][] 
+ []
+
+
+Overfull \hbox (109.9518pt too wide) in paragraph at lines 41--42
+[][] 
+ []
+
+
+Overfull \hbox (23.05978pt too wide) in paragraph at lines 41--42
+[][] 
+ []
+
+
+Overfull \hbox (514.87979pt too wide) in paragraph at lines 41--42
+[][] 
+ []
+
+
+Overfull \hbox (227.8158pt too wide) in paragraph at lines 41--42
+[][] 
+ []
+
+
+Overfull \hbox (29.40779pt too wide) in paragraph at lines 41--42
+[][] 
+ []
+
+
+Overfull \hbox (10.89177pt too wide) in paragraph at lines 41--42
+[][] 
+ []
+
+
+Overfull \hbox (22.38779pt too wide) in paragraph at lines 41--42
+[][] 
+ []
+
+
+Overfull \hbox (39.25978pt too wide) in paragraph at lines 41--42
+[][] 
+ []
+
+
+Overfull \hbox (7.72379pt too wide) in paragraph at lines 41--42
+[][] 
+ []
+
+
+Overfull \hbox (208.21977pt too wide) in paragraph at lines 41--42
+[][] 
+ []
+
+
+Overfull \hbox (48.94379pt too wide) in paragraph at lines 41--42
+[][] 
+ []
+
+
+Overfull \hbox (216.81181pt too wide) in paragraph at lines 41--42
+[][] 
+ []
+
+
+Overfull \hbox (71.3838pt too wide) in paragraph at lines 41--42
+[][] 
+ []
+
+
+Overfull \hbox (51.6918pt too wide) in paragraph at lines 41--42
+[][] 
+ []
+
+
+Overfull \hbox (279.33179pt too wide) in paragraph at lines 41--42
+[][] 
+ []
+
+
+Overfull \hbox (161.37181pt too wide) in paragraph at lines 41--42
+[][] 
+ []
+
+
+Overfull \hbox (232.02779pt too wide) in paragraph at lines 41--42
+[][] 
+ []
+
+
+Overfull \hbox (91.79576pt too wide) in paragraph at lines 41--42
+[][] 
+ []
+
+
+Overfull \hbox (31.0398pt too wide) in paragraph at lines 41--42
+[][] 
+ []
+
+
+Overfull \hbox (139.86778pt too wide) in paragraph at lines 41--42
+[][] 
+ []
+
+
+Overfull \hbox (98.34781pt too wide) in paragraph at lines 41--42
+[][] 
+ []
+
+
+Overfull \hbox (43.71179pt too wide) in paragraph at lines 41--42
+[][] 
+ []
+
+
+Overfull \hbox (1.87979pt too wide) in paragraph at lines 41--42
+[][] 
+ []
+
+
+Overfull \hbox (728.7918pt too wide) in paragraph at lines 41--42
+[][] 
+ []
+
+
+Overfull \hbox (222.3558pt too wide) in paragraph at lines 41--42
+[][] 
+ []
+
+
+Overfull \hbox (625.12378pt too wide) in paragraph at lines 41--42
+[][] 
+ []
+
+
+Overfull \hbox (97.92778pt too wide) in paragraph at lines 41--42
+[][] 
+ []
+
+
+Overfull \hbox (1826.57576pt too wide) in paragraph at lines 41--42
+[][] 
+ []
+
+
+Overfull \hbox (30.94377pt too wide) in paragraph at lines 41--42
+[][] 
+ []
+
+
+Overfull \hbox (161.0238pt too wide) in paragraph at lines 41--42
+[][] 
+ []
+
+
+Overfull \hbox (131.5638pt too wide) in paragraph at lines 41--42
+[][] 
+ []
+
+
+Overfull \hbox (3.71579pt too wide) in paragraph at lines 41--42
+[][] 
+ []
+
+
+Overfull \hbox (132.15178pt too wide) in paragraph at lines 41--42
+[][] 
+ []
+
+
+Overfull \hbox (294.3558pt too wide) in paragraph at lines 41--42
+[][] 
+ []
+
+
+Overfull \hbox (70.38779pt too wide) in paragraph at lines 41--42
+[][] 
+ []
+
+
+Overfull \hbox (111.72778pt too wide) in paragraph at lines 41--42
+[][] 
+ []
+
+
+Overfull \hbox (461.68382pt too wide) in paragraph at lines 41--42
+[][] 
+ []
+
+
+Overfull \hbox (12.07977pt too wide) in paragraph at lines 41--42
+[][] 
+ []
+
+
+Overfull \hbox (54.39178pt too wide) in paragraph at lines 41--42
+[][] 
+ []
+
+
+Overfull \hbox (607.29181pt too wide) in paragraph at lines 41--42
+[][] 
+ []
+
+
+Overfull \hbox (881.5518pt too wide) in paragraph at lines 41--42
+[][] 
+ []
+
+
+Overfull \hbox (575.89978pt too wide) in paragraph at lines 41--42
+[][] 
+ []
+
+
+Overfull \hbox (27.4878pt too wide) in paragraph at lines 41--42
+[][] 
+ []
+
+
+Overfull \hbox (152.3718pt too wide) in paragraph at lines 41--42
+[][] 
+ []
+
+
+Overfull \hbox (236.32382pt too wide) in paragraph at lines 41--42
+[][] 
+ []
+
+
+Overfull \hbox (100.85579pt too wide) in paragraph at lines 41--42
+[][] 
+ []
+
+
+Overfull \hbox (700.36382pt too wide) in paragraph at lines 41--42
+[][] 
+ []
+
+
+Overfull \hbox (493.24379pt too wide) in paragraph at lines 41--42
+[][] 
+ []
+
+
+Overfull \hbox (226.38779pt too wide) in paragraph at lines 41--42
+[][] 
+ []
+
+
+Overfull \hbox (144.3558pt too wide) in paragraph at lines 41--42
+[][] 
+ []
+
+
+Overfull \hbox (28.61578pt too wide) in paragraph at lines 41--42
+[][] 
+ []
+
+
+Overfull \hbox (425.64775pt too wide) in paragraph at lines 41--42
+[][] 
+ []
+
+
+Overfull \hbox (25.72379pt too wide) in paragraph at lines 41--42
+[][] 
+ []
+
+
+Overfull \hbox (1.35178pt too wide) in paragraph at lines 41--42
+[][] 
+ []
+
+
+Overfull \hbox (410.43176pt too wide) in paragraph at lines 41--42
+[][] 
+ []
+
+
+Overfull \hbox (29.88779pt too wide) in paragraph at lines 41--42
+[][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [17]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [18]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [19]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [20]
+Overfull \hbox (178.8559pt too wide) in paragraph at lines 133--134
+[][] 
+ []
+
+) (/home/dell/Desktop/EE3900-1/Assignment1/codes/8.2_2.ipynb
+Overfull \hbox (1535.73181pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (139.06378pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (463.05177pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (168.2838pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (260.21577pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (397.23178pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (1.18378pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (264.16379pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (423.7038pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (48.1758pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (102.63176pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (290.28778pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (148.38779pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (51.05579pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (116.31177pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (163.59178pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (388.30379pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (297.76375pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (192.24779pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (137.6958pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (330.84776pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (7.5678pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (578.98383pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (27.0438pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (79.35178pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (358.89177pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (115.07578pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (399.53577pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (206.02376pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (135.99179pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (129.0438pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (70.53177pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (852.58379pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (110.02379pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (622.42378pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (40.38779pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (956.47975pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (667.0998pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (1090.50775pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (307.0638pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (170.4438pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (34.75978pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (132.37979pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (236.71979pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (1.95178pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (387.65582pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (530.9118pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (69.00781pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (343.0518pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (574.0278pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (543.0798pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (448.25578pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (293.47975pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (47.67177pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (382.93976pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (138.87178pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (897.17581pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (450.37978pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (50.22777pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (125.0238pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (176.2638pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (69.61977pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (347.6838pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (415.9518pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (514.33977pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (110.67178pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (3.7038pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (101.29979pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (4.39978pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (53.1558pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (28.3758pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (96.54779pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (30.3678pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (467.9718pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (533.0358pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (294.0678pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (123.0438pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (271.37576pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (215.17978pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (347.21579pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (5.22778pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (299.6838pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (173.71979pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (210.61978pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (576.69182pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (89.4798pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (11.83978pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (21.60779pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (62.70778pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (87.67976pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (222.90779pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (272.39577pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (73.72379pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (150.4158pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (78.40378pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (107.47978pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (138.9678pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (644.80377pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (98.8398pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (46.32777pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (39.41579pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (107.52779pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (90.35577pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (484.08781pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (10.63977pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (45.73978pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (33.52376pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (82.39978pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (1.73578pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (31.74777pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (171.0318pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (39.35579pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (126.6798pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (140.38379pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (307.05179pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (503.53978pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (135.65578pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (124.3518pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (307.87979pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (60.87178pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (98.92378pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (566.47978pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (40.41177pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (88.23178pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (246.40378pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (654.03181pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (672.31982pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (40.57977pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (166.20778pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (2.28777pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (23.7078pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (80.92378pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (101.6958pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (413.51578pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (104.16777pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (188.94777pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (59.41978pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (78.41577pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (432.37979pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (57.05579pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (196.12378pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (168.61978pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (118.5798pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (127.50778pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (15.65578pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (163.24379pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (80.83978pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (29.94777pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (126.63176pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (381.57176pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (53.71979pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (455.28778pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (34.3758pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (372.35576pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (104.46779pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (84.0078pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (175.17177pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (35.73178pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (29.23978pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [21]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [22]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [23]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [24]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [25]
+Overfull \hbox (178.8559pt too wide) in paragraph at lines 88--89
+[][] 
+ []
+
+)
+
+LaTeX Warning: Reference `fig:butter-imp' on page 26 undefined on input line 1549.
+
+
+LaTeX Warning: Reference `eq:z_trans' on page 26 undefined on input line 1550.
+
+(/home/dell/Desktop/EE3900-1/Assignment1/codes/8.2_3.ipynb
+Overfull \hbox (1082.6718pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (35.40779pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (312.33182pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (375.88379pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (211.67581pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (93.05579pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (199.29178pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (141.05579pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (552.9438pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (175.05179pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (144.6198pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (540.09174pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (17.74377pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (160.42375pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (26.3718pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (19.08777pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (22.24379pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (179.8758pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (34.39978pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (394.38779pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (122.85178pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (443.2518pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (32.08379pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (374.75578pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (768.43979pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (9.23578pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (263.14377pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (31.0278pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (105.39178pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (135.67981pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (169.95178pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (422.7318pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (11.5998pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (65.7078pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (1140.30783pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (174.40378pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (391.43578pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (46.85579pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (323.05978pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (165.7038pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (739.81978pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (102.3678pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (91.78378pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (56.87578pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (299.01181pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (5.73178pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (105.71579pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (113.5158pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (422.51578pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (107.05978pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (541.69977pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (43.74777pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (29.0358pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (273.25977pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (201.37979pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (210.31978pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (120.48778pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (45.0318pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (190.3638pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (87.0318pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (1055.50377pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (308.3598pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (181.5078pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (66.09178pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (359.59978pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (258.96777pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (82.3758pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (91.72379pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (13.30377pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (17.74377pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (52.75978pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (26.95976pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (117.71579pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (37.06378pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (427.68779pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (151.63976pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (137.0358pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (399.0678pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (285.42778pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (251.53978pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (111.63176pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (77.93579pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (138.3678pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (233.3958pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (19.0398pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (265.6878pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (2872.60376pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (90.25978pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (161.95978pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (99.0318pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (20.74379pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (571.21979pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (52.8198pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (52.79579pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (192.4638pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (1780.3278pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (404.59976pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (196.86778pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (113.7078pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (431.63579pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (53.61179pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (53.91177pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (167.10779pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (60.3678pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (25.05179pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (876.03183pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (127.05179pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (154.3758pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (106.7358pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (812.2518pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (423.66782pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (327.5838pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (288.71576pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (400.19579pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (365.81578pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (115.60378pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (92.94777pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (668.65979pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (402.28375pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (87.41579pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (199.89178pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (184.3638pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (91.26776pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (259.05179pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (154.3758pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (413.57579pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (251.07178pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (21.71579pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (523.26779pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (32.3718pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (87.71579pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (650.0118pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (543.71579pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Overfull \hbox (30.55978pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [26]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [27]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [28]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [29]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (178.8559pt too wide) in paragraph at lines 110--111
+[][] 
+ []
+
+)
+!pdfTeX error: pdflatex (file /home/dell/Desktop/EE3900-1/Assignment1/figs/8.2_1.png): reading image file failed
+ ==> Fatal error occurred, no output PDF file produced!

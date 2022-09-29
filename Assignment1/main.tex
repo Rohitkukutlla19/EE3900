@@ -670,10 +670,8 @@ wget https://raw.githubusercontent.com/gadepall/EE1310/master/filter/codes/yndft
 \end{figure}
 \item Repeat the previous exercise by computing $X(k), H(k)$ and $y(n)$ through FFT and 
 IFFT.
-
 \end{enumerate}
 %
-
 \section{FFT}
 % \subsection{Definitions}
 \begin{enumerate}[label=\arabic*.,ref=\thesection.\theenumi]
@@ -691,7 +689,6 @@ W_{N} = e^{-j2\pi/N}
 		\vec{F}_{N} = \sbrak{W_{N}^{mn}}, \quad 0 \le m,n \le N-1 
 	\end{align}
 	where $W_{N}^{mn}$ are the elements of $\vec{F}_{N}$.
-
 \item Let 
 	\begin{align}
 		\vec{I}_4 = \myvec{\vec{e}_4^{1} &\vec{e}_4^{2} &\vec{e}_4^{3} &\vec{e}_4^{4} }
@@ -1491,7 +1488,7 @@ Therefore, from $F_8$,
 	 where the input signal is $x(n)$ and the output signal is $y(n)$ with initial values all 0. Replace
 	 \textbf{signal.filtfilt} with your own routine and verify.
 	 \\\solution\\
-	 \lstinputlisting{codes/8_1_.ipynb}
+	 \lstinputlisting{codes/8.1_.ipynb}
 	 %
 	 \item Repeat all the exercises in the previous sections for the above $a$ and $b$.
 	 \\
@@ -1543,9 +1540,9 @@ Therefore, from $F_8$,
 		 &+ \brak{-6.81 \times 10^{-4}}\delta(n)
 	 \end{align}
 	 The values $r(i)$, $p(i)$, $k(i)$ and thus the impulse response function are computed and plotted at
-	 \lstinputlisting{codes/7_2_1.py}
+	 \lstinputlisting{codes/8.2_1.ipynb}
 	 The filter frequency response is plotted at
-	 \lstinputlisting{codes/7_2_2.py}
+	 \lstinputlisting{codes/8.2_2.ipynb}
 	 Observe that for a series $t_n = r^n$, $\frac{t_{n + 1}}{t_n} = r$.
 	 By the ratio test, $t_n$ converges if $|r| < 1$. We note that
 	 observe that $|p(i)| < 1$ and so, as $h(n)$ is the sum of convergent series,
@@ -1558,19 +1555,19 @@ Therefore, from $F_8$,
 	 $h(n)$ is negligible after $n \geq 64$, and we
 	 can apply a 64-bit FFT to get y(n). The following code uses the DFT matrix
 	 to generate $y(n)$.
-	 \lstinputlisting{codes/7_2_3.py}
+	 \lstinputlisting{codes/8.2_3.ipynb}
 	 \begin{figure}[!htb]
-		 \includegraphics[width=\columnwidth]{figs/7_2_1.png}
+		 \includegraphics[width=\columnwidth]{figs/8.2_1.png}
 		 \caption{Plot of $h(n)$}
 		 \label{fig:butter-imp}
 	 \end{figure}
 	 \begin{figure}[!htb]
-		 \includegraphics[width=\columnwidth]{figs/7_2_2.png}
+		 \includegraphics[width=\columnwidth]{figs/8.2_2.png}
 		 \caption{Filter frequency response}
 		 \label{fig:butter-resp}
 	 \end{figure}
 	 \begin{figure}[!htb]
-		 \includegraphics[width=\columnwidth]{figs/7_2_3.png}
+		 \includegraphics[width=\columnwidth]{figs/8.2_3.png}
 		 \caption{Plot of $y(n)$}
 		 \label{fig:butter-out}
 	 \end{figure}
@@ -1587,6 +1584,5 @@ Therefore, from $F_8$,
 	 \\\solution\\
 	 A better filtering was found on setting the order of the filter to be 7.
 	 \end{enumerate}
- \end{enumerate}
 
 \end{document}
