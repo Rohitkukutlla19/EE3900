@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2022.8.17)  27 SEP 2022 21:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2022.8.17)  29 SEP 2022 21:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -946,18 +946,18 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 2154E13812F1013637C6C87519C101FD;346.
  ) 
 Here is how much of TeX's memory you used:
- 13121 strings out of 479304
- 199369 string characters out of 5869779
+ 13119 strings out of 479304
+ 199355 string characters out of 5869779
  863537 words of memory out of 5000000
  29887 multiletter control sequences out of 15000+600000
  478014 words of font info for 186 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  71i,14n,74p,276b,1668s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtcxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxsc.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsya.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsyc.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on /home/dell/Desktop/EE3900-1/Assignment1/main.pdf (6 pages, 163319 bytes).
+Output written on /home/dell/Desktop/EE3900-1/Assignment1/main.pdf (6 pages, 163145 bytes).
 PDF statistics:
- 596 PDF objects out of 1000 (max. 8388607)
- 385 compressed objects within 4 object streams
- 174 named destinations out of 1000 (max. 500000)
+ 594 PDF objects out of 1000 (max. 8388607)
+ 383 compressed objects within 4 object streams
+ 172 named destinations out of 1000 (max. 500000)
  87 words of extra memory for PDF output out of 10000 (max. 10000000)
 
