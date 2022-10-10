@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2022.8.17)  10 OCT 2022 11:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2022.8.17)  10 OCT 2022 11:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/home/dell/Desktop/EE3900-1/.vscode/Pingala_11/pingala.tex
-(/home/dell/Desktop/EE3900-1/.vscode/Pingala_11/pingala.tex
+**/home/dell/Desktop/EE3900-1/Pingala/main.tex
+(/home/dell/Desktop/EE3900-1/Pingala/main.tex
 LaTeX2e <2020-10-01> patch level 4
 L3 programming layer <2021-01-09> xparse <2020-03-03> (/usr/share/texlive/texmf-dist/tex/latex/IEEEtran/IEEEtran.cls
 Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
@@ -512,8 +512,8 @@ File: ot1txr.fd 2000/12/15 v3.1
 File: l3backend-pdftex.def 2020-01-29 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count311
 \l__pdf_internal_box=\box59
-) (/home/dell/Desktop/EE3900-1/.vscode/Pingala_11/pingala.aux)
-\openout1 = `pingala.aux'.
+) (/home/dell/Desktop/EE3900-1/Pingala/main.aux)
+\openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 74.
 LaTeX Font Info:    Trying to load font information for OML+txmi on input line 74.
@@ -646,7 +646,7 @@ LaTeX Info: Redefining \ref on input line 74.
 LaTeX Info: Redefining \pageref on input line 74.
 LaTeX Info: Redefining \nameref on input line 74.
 \@outlinefile=\write3
-\openout3 = `pingala.out'.
+\openout3 = `main.out'.
 
 \c@lstlisting=\count319
 \c@theorem=\count320
@@ -657,7 +657,7 @@ LaTeX Info: Redefining \nameref on input line 74.
 \c@definition=\count325
 \c@rem=\count326
 \tf@toc=\write4
-\openout4 = `pingala.toc'.
+\openout4 = `main.toc'.
 
 LaTeX Font Info:    Trying to load font information for U+rsfs on input line 171.
  (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
@@ -687,7 +687,7 @@ Overfull \hbox (25.86975pt too wide) detected at line 214
 LaTeX Warning: File `figs/2_1.png' not found on input line 222.
 
 
-/home/dell/Desktop/EE3900-1/.vscode/Pingala_11/pingala.tex:222: Package pdftex.def Error: File `figs/2_1.png' not found: using draft setting.
+/home/dell/Desktop/EE3900-1/Pingala/main.tex:222: Package pdftex.def Error: File `figs/2_1.png' not found: using draft setting.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
@@ -720,7 +720,7 @@ LaTeX Warning: Reference `eq:X-z' on page 2 undefined on input line 238.
 LaTeX Warning: File `figs/2_2.png' not found on input line 261.
 
 
-/home/dell/Desktop/EE3900-1/.vscode/Pingala_11/pingala.tex:261: Package pdftex.def Error: File `figs/2_2.png' not found: using draft setting.
+/home/dell/Desktop/EE3900-1/Pingala/main.tex:261: Package pdftex.def Error: File `figs/2_2.png' not found: using draft setting.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
@@ -778,7 +778,7 @@ LaTeX Warning: Reference `pr:1-4' on page 4 undefined on input line 392.
 
 [4
 
-] (/home/dell/Desktop/EE3900-1/.vscode/Pingala_11/pingala.aux)
+] (/home/dell/Desktop/EE3900-1/Pingala/main.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -786,24 +786,24 @@ LaTeX Warning: There were undefined references.
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 
-Package rerunfilecheck Warning: File `pingala.out' has changed.
+Package rerunfilecheck Warning: File `main.out' has changed.
 (rerunfilecheck)                Rerun to get outlines right
 (rerunfilecheck)                or use package `bookmark'.
 
-Package rerunfilecheck Info: Checksums for `pingala.out':
+Package rerunfilecheck Info: Checksums for `main.out':
 (rerunfilecheck)             Before: <no file>
 (rerunfilecheck)             After:  84E0C472418CCA051F909B1CF9289940;151.
  ) 
 Here is how much of TeX's memory you used:
- 12935 strings out of 479304
- 196500 string characters out of 5869779
- 719539 words of memory out of 5000000
- 29787 multiletter control sequences out of 15000+600000
+ 12936 strings out of 479304
+ 196377 string characters out of 5869779
+ 719533 words of memory out of 5000000
+ 29788 multiletter control sequences out of 15000+600000
  464398 words of font info for 148 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 71i,10n,74p,282b,1205s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 71i,10n,74p,268b,1205s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxsc.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsya.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsyb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txtt.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on /home/dell/Desktop/EE3900-1/.vscode/Pingala_11/pingala.pdf (4 pages, 75707 bytes).
+Output written on /home/dell/Desktop/EE3900-1/Pingala/main.pdf (4 pages, 75626 bytes).
 PDF statistics:
  188 PDF objects out of 1000 (max. 8388607)
  168 compressed objects within 2 object streams
