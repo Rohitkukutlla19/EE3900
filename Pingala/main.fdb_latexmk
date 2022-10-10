@@ -1,10 +1,10 @@
 # Fdb version 3
-["pdflatex"] 1665383438 "/home/dell/Desktop/EE3900-1/Pingala/main.tex" "/home/dell/Desktop/EE3900-1/Pingala/main.pdf" "main" 1665383438
+["pdflatex"] 1665383654 "/home/dell/Desktop/EE3900-1/Pingala/main.tex" "/home/dell/Desktop/EE3900-1/Pingala/main.pdf" "main" 1665383654
   "/etc/texmf/web2c/texmf.cnf" 1660711372 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/dell/Desktop/EE3900-1/Pingala/figs/2_1.png" 0 -1 0 ""
   "/home/dell/Desktop/EE3900-1/Pingala/figs/2_2.png" 0 -1 0 ""
-  "/home/dell/Desktop/EE3900-1/Pingala/main.aux" 1665383438 8 a94a2480d3289e625eea47cd1b285758 ""
-  "/home/dell/Desktop/EE3900-1/Pingala/main.tex" 1665383036 13932 994f6510e15446cb4d28dd81ad116d9c ""
+  "/home/dell/Desktop/EE3900-1/Pingala/main.aux" 1665383654 8 a94a2480d3289e625eea47cd1b285758 ""
+  "/home/dell/Desktop/EE3900-1/Pingala/main.tex" 1665383653 13927 5f73754033b096bfdb1eb123cc99b4ec ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1136768653 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -141,12 +141,12 @@
   "figs/2_2.png" 0 -1 0 ""
   "main.aux" 0 -1 0 "pdflatex"
   "main.out" 0 -1 0 "pdflatex"
-  "main.tex" 1665383036 13932 994f6510e15446cb4d28dd81ad116d9c ""
+  "main.tex" 1665383653 13927 5f73754033b096bfdb1eb123cc99b4ec ""
   (generated)
-  "/home/dell/Desktop/EE3900-1/Pingala/main.pdf"
   "main.aux"
-  "main.log"
   "/home/dell/Desktop/EE3900-1/Pingala/main.log"
   "main.out"
   "main.pdf"
   "main.toc"
+  "main.log"
+  "/home/dell/Desktop/EE3900-1/Pingala/main.pdf"
