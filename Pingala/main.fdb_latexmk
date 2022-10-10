@@ -1,9 +1,9 @@
 # Fdb version 3
-["pdflatex"] 1665384371 "/home/dell/Desktop/EE3900-1/Pingala/main.tex" "/home/dell/Desktop/EE3900-1/Pingala/main.pdf" "main" 1665384371
+["pdflatex"] 1665384590 "/home/dell/Desktop/EE3900-1/Pingala/main.tex" "/home/dell/Desktop/EE3900-1/Pingala/main.pdf" "main" 1665384590
   "/etc/texmf/web2c/texmf.cnf" 1660711372 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/dell/Desktop/EE3900-1/Pingala/figs/2_1.png" 0 -1 0 ""
   "/home/dell/Desktop/EE3900-1/Pingala/figs/2_2.png" 0 -1 0 ""
-  "/home/dell/Desktop/EE3900-1/Pingala/main.aux" 1665384371 8 a94a2480d3289e625eea47cd1b285758 ""
+  "/home/dell/Desktop/EE3900-1/Pingala/main.aux" 1665384590 8 a94a2480d3289e625eea47cd1b285758 ""
   "/home/dell/Desktop/EE3900-1/Pingala/main.tex" 1665384365 13913 a4953273af4bc5b277a5172b4a339236 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -143,10 +143,10 @@
   "main.out" 0 -1 0 "pdflatex"
   "main.tex" 1665384365 13913 a4953273af4bc5b277a5172b4a339236 ""
   (generated)
-  "main.aux"
-  "/home/dell/Desktop/EE3900-1/Pingala/main.pdf"
-  "main.out"
+  "main.toc"
   "main.log"
   "main.pdf"
+  "main.out"
   "/home/dell/Desktop/EE3900-1/Pingala/main.log"
-  "main.toc"
+  "main.aux"
+  "/home/dell/Desktop/EE3900-1/Pingala/main.pdf"
