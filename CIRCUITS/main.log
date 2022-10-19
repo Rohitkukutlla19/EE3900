@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2022.8.17)  19 OCT 2022 11:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2022.8.17)  19 OCT 2022 11:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -992,13 +992,13 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 Here is how much of TeX's memory you used:
  38406 strings out of 479304
  893044 string characters out of 5869779
- 1413192 words of memory out of 5000000
+ 1413193 words of memory out of 5000000
  54967 multiletter control sequences out of 15000+600000
  485534 words of font info for 199 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  102i,15n,103p,444b,1696s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtcxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxsc.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on /home/dell/Desktop/EE3900-1/CIRCUITS/main.pdf (5 pages, 110555 bytes).
+Output written on /home/dell/Desktop/EE3900-1/CIRCUITS/main.pdf (5 pages, 110550 bytes).
 PDF statistics:
  205 PDF objects out of 1000 (max. 8388607)
  183 compressed objects within 2 object streams

@@ -1,10 +1,10 @@
 # Fdb version 3
-["pdflatex"] 1666159269 "/home/dell/Desktop/EE3900-1/CIRCUITS/main.tex" "/home/dell/Desktop/EE3900-1/CIRCUITS/main.pdf" "main" 1666159271
+["pdflatex"] 1666160996 "/home/dell/Desktop/EE3900-1/CIRCUITS/main.tex" "/home/dell/Desktop/EE3900-1/CIRCUITS/main.pdf" "main" 1666160998
   "./figures/2.png" 1665979462 25350 572ba9db99bd3b1a51f750779a36f604 ""
   "./figures/3.png" 1665979462 25346 ca48ffc3dfde22f174c4820721a87d53 ""
   "/etc/texmf/web2c/texmf.cnf" 1660711372 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/dell/Desktop/EE3900-1/CIRCUITS/main.aux" 1666159271 2666 70e7931e5ef22ff2425d3d61398a1e1f ""
-  "/home/dell/Desktop/EE3900-1/CIRCUITS/main.tex" 1666159269 16147 d32c74b1943b16ec10fd0432a7c74702 ""
+  "/home/dell/Desktop/EE3900-1/CIRCUITS/main.aux" 1666160998 2666 70e7931e5ef22ff2425d3d61398a1e1f ""
+  "/home/dell/Desktop/EE3900-1/CIRCUITS/main.tex" 1666160996 16147 9d8890c2a1a40c381569fefdd29b0c0a ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1136768653 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -228,13 +228,13 @@
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1660711622 2571264 836395697c9f1d8a3fd6ff0b41ea3eaf ""
   "figures/2.png" 1665979462 25350 572ba9db99bd3b1a51f750779a36f604 ""
   "figures/3.png" 1665979462 25346 ca48ffc3dfde22f174c4820721a87d53 ""
-  "main.aux" 1666159271 2666 70e7931e5ef22ff2425d3d61398a1e1f "pdflatex"
-  "main.out" 1666159271 151 055defce06fc884627b2f80eff5874bf "pdflatex"
-  "main.tex" 1666159269 16147 d32c74b1943b16ec10fd0432a7c74702 ""
+  "main.aux" 1666160998 2666 70e7931e5ef22ff2425d3d61398a1e1f "pdflatex"
+  "main.out" 1666160998 151 055defce06fc884627b2f80eff5874bf "pdflatex"
+  "main.tex" 1666160996 16147 9d8890c2a1a40c381569fefdd29b0c0a ""
   (generated)
-  "/home/dell/Desktop/EE3900-1/CIRCUITS/main.log"
   "main.out"
+  "/home/dell/Desktop/EE3900-1/CIRCUITS/main.log"
+  "main.aux"
   "main.pdf"
   "/home/dell/Desktop/EE3900-1/CIRCUITS/main.pdf"
-  "main.aux"
   "main.log"
