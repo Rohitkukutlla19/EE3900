@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1666160996 "/home/dell/Desktop/EE3900-1/CIRCUITS/main.tex" "/home/dell/Desktop/EE3900-1/CIRCUITS/main.pdf" "main" 1666160998
+["pdflatex"] 1666160996 "/home/dell/Desktop/EE3900-1/CIRCUITS/main.tex" "/home/dell/Desktop/EE3900-1/CIRCUITS/main.pdf" "main" 1667928224
   "./figures/2.png" 1665979462 25350 572ba9db99bd3b1a51f750779a36f604 ""
   "./figures/3.png" 1665979462 25346 ca48ffc3dfde22f174c4820721a87d53 ""
   "/etc/texmf/web2c/texmf.cnf" 1660711372 475 c0e671620eb5563b2130f56340a5fde8 ""
@@ -232,9 +232,9 @@
   "main.out" 1666160998 151 055defce06fc884627b2f80eff5874bf "pdflatex"
   "main.tex" 1666160996 16147 9d8890c2a1a40c381569fefdd29b0c0a ""
   (generated)
-  "main.out"
+  "main.pdf"
   "/home/dell/Desktop/EE3900-1/CIRCUITS/main.log"
   "main.aux"
-  "main.pdf"
-  "/home/dell/Desktop/EE3900-1/CIRCUITS/main.pdf"
   "main.log"
+  "main.out"
+  "/home/dell/Desktop/EE3900-1/CIRCUITS/main.pdf"

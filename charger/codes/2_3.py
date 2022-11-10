@@ -8,7 +8,7 @@ f = 50
 N = 1000
 t = np.linspace(0, 4/f, N)
 B = np.ones(N) + 1j*np.zeros(N)
-
+print("the array is: ",B)
 def acc_cos(k):
     global B
     acc = (np.exp(-1j*2*np.pi*f*k*t) + np.exp(1j*2*np.pi*f*k*t))/(1 - k**2)
